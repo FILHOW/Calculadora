@@ -96,10 +96,6 @@ List<String> _tokenizar(String expressao) {
 }
 
 void main() {
-  print('╔════════════════════════════════════╗');
-  print('║     CALCULADORA EM DART 🧮         ║');
-  print('╚════════════════════════════════════╝');
-  print('');
   print('Operações suportadas: + - * / ^ ( )');
   print('Exemplos: 2+2, 5*3+1, (2+3)*4, 2^3+5');
   print('Digite "sair" para encerrar');
@@ -132,4 +128,5 @@ void main() {
       print('❌ Erro: Expressão inválida. Tente novamente.\n');
     }
   }
+
 }
